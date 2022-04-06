@@ -1,7 +1,31 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+#div1 {
+  background: #ddd;
+}
+
+#div2 {
+  background: #aaa;
+}
+
+#div3 {
+  background: #777;
+}
+
+#div4 {
+  background: #444;
 }
